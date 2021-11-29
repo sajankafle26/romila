@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: #0E3A36;
+    font-family: 'Mukta', sans-serif;
+}
+.container
+{
+    background: #fff;
+    max-width: 1200px;
+    margin: auto;
+}
+header img 
+{
+    width: 100%;
+    display: block;
+}
+nav 
+{
+    background: #BE9660;
+    line-height: 45px;
+}
+nav ul 
+{
+    list-style: none;
+}
+nav ul li 
+{
+    display: inline;
+}
+nav ul li a 
+{
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+    border-left: 1px solid #000;
+}
+nav ul li a:hover 
+{
+    background: #5C4C36;
+}
+.main
+{
+    padding: 10px;
+}
+.main-left
+{
+    width: 808px;
+    float: left;
+}
+.main-right
+{
+    width: 356px;
+    float: right;
+}
+.clear
+{
+    clear: both;
+}
+.slider
+{
+    background: #1C3D1D;
+    color: #fff;
+}
+.slider img 
+{
+    width: 100%;
+}
+.p-4
+{
+    padding: 10px;
+}
+.news
+{
+    background: #FAFAFA;
+    border: 1px solid #5C4C36;
+    margin-bottom: 10px;
+}
+.news h4 
+{
+    background: #5B4B35;
+    color: #fff;
+    padding: 4px 20px;
+}
+.news ul 
+{
+    padding: 10px;
+    list-style: none;
+}
+.news ul li 
+{
+    border-bottom: 1px solid #ccc;
+    padding: 10px ;
+    overflow: hidden;
+}
+.news figure
+{
+    width: 100px;
+    float: left;
+    padding-right: 10px;
+} 
+.news figure img 
+{
+    width: 100%;
+}
+.news figcaption
+{
+  font-size: 12px;
+  line-height: 14px;
+  color: #5C4C36;
+}
+.news figcaption span 
+{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.block1
+{
+    margin: 20px 0;
+}
+.block1_left
+{
+    width: 47%;
+}
+.block1_left img 
+{
+    width: 100%;
+}
+.block1_left h3 
+{
+    background: #067a23;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: normal;
+    display: inline-block;
+}
+.block1_left-inner
+{
+    border-top: 4px solid #067a23;
+    background: #FAFAFA;
+    padding: 10px;
+}
+.block1_left-inner date 
+{
+    color: #ccc;
+    font-size: 12px;
+    padding: 5px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    display: block;
+}
+.block1_left-inner .desc
+{
+    font-size: 14px;
+    line-height: 1.6;
+}
+.block1_left .news
+{
+    border: none;
+}
+.l 
+{
+    float: left;
+}
+.r 
+{
+    float: right;
+}
+footer
+{
+    background: #012020;
+    color: yellow;
+    padding: 20px;
+}
+.sticky
+{
+    width: 60px;
+    height: 200px;
+    background: #d8dde1;
+    position: fixed;
+    top: 30%;
+    right: 3px;
+    border-radius: 5px;
+}
+.sticky img 
+{
+    width: 45px;
+}
+.sticky li 
+{
+    line-height: 22px;
+}
+
+
+ 
